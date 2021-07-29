@@ -14,4 +14,4 @@ Para poder conocer y aprovechar al máximo esta API debemos conocer su flujo de 
 como podemos ver en la siguiente imagen, tenemos varios estados y acciones para llegar a cada uno de ellos, en este tutorial nos centraremos en los principales para reproducir un archivo de audio. Como apunte, las flechas simples representan llamadas a métodos síncronos 
 y las flechas dobles a métodos asíncronos.
 
-![Diagrama de estados](https://ibb.co/xSdSMRT)
+![Diagrama de estados](https://github.com/crisyoda/SantanderFase2_BedufyMusic/blob/55facce7a67054e341d134865549ece4c66f8c3c/mediaplayer-states.png)
