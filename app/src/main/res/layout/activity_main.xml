@@ -31,11 +31,14 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="84dp"
         android:layout_marginTop="24dp"
+        android:drawablePadding="1dp"
         android:hint="@string/add_user"
         android:inputType="text"
         android:textColor="@color/aqua"
         android:textColorHint="@color/colorAccent"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/avatar3"
+       />
 
     <EditText
         android:id="@+id/addPws"
@@ -47,6 +50,8 @@
         android:inputType="textPassword"
         android:textColor="@color/aqua"
         android:textColorHint="@color/colorAccent"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="10dp"
         android:textStyle="italic" />
 
     <Button
@@ -62,7 +67,7 @@
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/btnNuevo"
+        android:id="@+id/btnRegistro"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

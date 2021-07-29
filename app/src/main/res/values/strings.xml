@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">Bedu </string>
-    <string name="bienvenido_text">Ingresa a la mejor app de música </string>
+    <string name="bienvenido_text">¡Ingresa a la mejor app de música!</string>
     <string name="entrar_button">Entrar</string>
     <string name="crearUsuario_button">Registrarme</string>
     <string name="button_clicked">...Ingresando a tu música</string>
     <string name="add_user">Ingresa tu usuario</string>
     <string name="add_pws">Ingresa tu contraseña</string>
-
+    <string name="textReg">Ingresa tus datos en el formulario</string>
+    <string name="textRegName">Ingresa tu nombre</string>
+    <string name="textCorreoReg">Ingresa tu correo</string>
+    <string name="textAceptarReg">Aceptar</string>
+    <string name="textRecNotif">Acepto los términos y condiciones</string>
 
 </resources>
