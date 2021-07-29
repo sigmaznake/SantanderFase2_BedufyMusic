@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/music2" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_text"
+        android:textColor="@color/aqua"
+        android:textSize="14sp"
+        android:layout_marginTop="32dp"
+        />
+
+    <EditText
+        android:id="@+id/addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="84dp"
+        android:layout_marginTop="24dp"
+        android:hint="@string/add_user"
+        android:inputType="text"
+        android:textColor="@color/aqua"
+        android:textColorHint="@color/colorAccent"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/addPws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="84dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/add_pws"
+        android:inputType="textPassword"
+        android:textColor="@color/aqua"
+        android:textColorHint="@color/colorAccent"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTintMode="add"
+        android:text="@string/entrar_button"
+        android:textColorHint="@color/colorAccent"
+        app:strokeColor="#FF5722"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnNuevo"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="#E91E63"
+        android:text="@string/crearUsuario_button"
+        android:textSize="12sp"
+        />
+
+</LinearLayout>
