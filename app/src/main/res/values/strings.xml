@@ -10,6 +10,6 @@
     <string name="textRegName">Ingresa tu nombre</string>
     <string name="textCorreoReg">Ingresa tu correo</string>
     <string name="textAceptarReg">Aceptar</string>
-    <string name="textRecNotif">Acepto los términos y condiciones</string>
+    <string name="textRecNotif">Acepto los términos y condiciones.</string>
 
 </resources>
