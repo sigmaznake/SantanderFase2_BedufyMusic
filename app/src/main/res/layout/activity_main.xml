@@ -3,78 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/fondo_1"
-    android:gravity="center"
-    android:orientation="vertical"
+    style="@style/layout"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="152dp"
-        android:layout_height="120dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/music2" />
+        style="@style/imageViewLogin"
+        />
 
     <TextView
+        style="@style/textViewLogin"
         android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bienvenido_text"
-        android:textColor="@color/aqua"
-        android:textSize="14sp"
-        android:layout_marginTop="32dp"
         />
 
     <EditText
+        style="@style/editTextUser"
         android:id="@+id/addUser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginHorizontal="84dp"
-        android:layout_marginTop="24dp"
-        android:drawablePadding="1dp"
-        android:hint="@string/add_user"
-        android:inputType="text"
-        android:textColor="@color/aqua"
-        android:textColorHint="@color/colorAccent"
-        android:textStyle="italic"
-        android:drawableLeft="@drawable/avatar3"
-       />
+        />
 
     <EditText
+        style="@style/editTextPass"
         android:id="@+id/addPws"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginHorizontal="84dp"
-        android:layout_marginTop="5dp"
-        android:hint="@string/add_pws"
-        android:inputType="textPassword"
-        android:textColor="@color/aqua"
-        android:textColorHint="@color/colorAccent"
-        android:drawableLeft="@drawable/key"
-        android:drawablePadding="10dp"
-        android:textStyle="italic" />
+        />
 
     <Button
+        style="@style/buttonEntrar"
         android:id="@+id/btnEntrar"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:backgroundTintMode="add"
-        android:text="@string/entrar_button"
-        android:textColorHint="@color/colorAccent"
-        app:strokeColor="#FF5722"
-        android:textStyle="bold"/>
+        />
 
     <Button
+        style="@style/buttonRegistro"
         android:id="@+id/btnRegistro"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:backgroundTint="#E91E63"
-        android:text="@string/crearUsuario_button"
-        android:textSize="12sp"
         />
 
 </LinearLayout>
