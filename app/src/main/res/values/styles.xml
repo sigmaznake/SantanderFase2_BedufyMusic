@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="layout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/fondo_1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="imageViewLogin">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/music2</item>
+        <item name="android:layout_width">152dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <style name="textViewLogin">
+        <item name="android:layout_width">wrap_content</item>>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/aqua</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:text">@string/bienvenido_text</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/aqua</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="editTextUser" parent="editText">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:drawablePadding">1dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:hint">@string/add_user</item>
+        <item name="android:drawableLeft">@drawable/avatar3</item>
+    </style>
+
+    <style name="editTextPass" parent="editText">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">@string/add_pws</item>
+        <item name="android:drawableLeft">@drawable/key</item>
+    </style>
+
+    <style name="button">
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:strokeColor">#FF5722</item>
+    </style>
+
+    <style name="buttonEntrar" parent="button">
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:backgroundTintMode">add</item>
+        <item name="android:text">@string/entrar_button</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonRegistro" parent="button">
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:text">@string/crearUsuario_button</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
